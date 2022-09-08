@@ -1,0 +1,224 @@
+/* Universal Styling */
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: #EEDB00;
+    font-size: 3rem;
+    font-family: "Audiowide", Georgia, sans-serif;
+}
+
+h2, h3, p {
+    color: #CFCFCF;
+    width: fit-content;
+    margin: 2rem auto;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: "Roboto Condensed", Georgia, sans-serif;
+    text-transform: uppercase;
+    color: #EEDB00;
+    border: #EEDB00 solid 1px;
+    padding: 0 2rem;
+}
+
+h3 {
+    font-family: "Baloo 2", sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Styles */
+.homepage-header {
+    /* background-image: url('../images/star-wars-backgrounds-starfield.jpeg'); */
+    background-color: rgb(59, 59, 59);
+    background-size: cover;
+    overflow: auto;
+    width: 100%; 
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    border: #EEDB00 solid 0.1rem;
+    float: left;
+    padding: 0.5rem;
+}
+
+nav {
+    float: right;
+    align-self: flex-end;
+}
+
+nav li {
+    display: inline;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+nav li a {
+    color: #CFCFCF;
+    font-family: "Baloo 2", monospace;
+    text-transform: uppercase;
+    padding: 0 1rem;
+}
+
+nav li a:hover {
+    color: #EEDB00;
+    border: #EEDB00 solid 1px;
+}
+
+/* Mission Styles */
+#mission {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('../images/star-wars-backgrounds-lightspeed.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mission-statement {
+    background-color: rgba(59, 59, 59, 0.933);
+    height: fit-content;
+    padding: 3rem 4rem;
+}
+
+.mission-statement h2 {
+    color: #EEDB00;
+    border: #EEDB00 solid 1px;
+    padding: 0 2rem;
+}
+
+/* Product Styles */
+#products {
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+    padding: 3rem 4rem;
+    flex-wrap: wrap;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    border: #CFCFCF solid 1px;
+    padding: 2rem;
+
+}
+
+.product-box {
+    background-color: rgb(138, 138, 138);
+    color: rgb(58, 57, 57);
+    width: 20rem;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-text {
+    display: none;
+    background-color: rgba(59, 59, 59, 0.85);
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    height: 12rem;
+}
+
+.product-text h3 {
+    border: #CFCFCF solid 1px;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+
+.product-box:hover .product-text {
+    display: block;
+}
+
+#x-wing {
+    background-image: url('../images/Xwing.webp');
+}
+
+#airspeeder {
+    background-image: url('../images/T-47_Speeder.webp');
+}
+
+#u-wing {
+    background-image: url('../images/U-wing.webp');
+}
+
+/* Team Styles */
+#team {
+    background-image: url('../images/star-wars-backgrounds-starfield.jpeg');
+    padding: 2rem;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member {
+    height: 20rem;
+    width: 15rem;
+    background-color:  rgba(138, 138, 138, 0.75);
+    padding: 1rem;
+    text-align: center;
+}
+
+.team-member .team-pic {
+    max-width: 100%;
+    max-height: 100%;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #EEDB00;
+}
+
+.footer-container {
+    display: flex;
+    background-color: #EEDB00;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+footer p {
+    float: left;
+    align-self: flex-end;
+    color: black;
+    margin: 0;
+}
+
+footer h1 {
+    color: black;
+    float: right;
+    Margin: 0;
+}
